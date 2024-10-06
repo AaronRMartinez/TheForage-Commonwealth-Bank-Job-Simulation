@@ -4,4 +4,4 @@ The Forage Job Simulations are online, interactive programs designed to give stu
 
 ## Commonwealth Bank Introduction to Cybersecurity
 
-<a href="">Commonwealth Bank Introduction to Cybersecurity Certifcate of Completion</a>
+<a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Commonwealth%20Bank%20Certificate%20of%20Completion.pdf">Commonwealth Bank Introduction to Cybersecurity Certifcate of Completion</a>
