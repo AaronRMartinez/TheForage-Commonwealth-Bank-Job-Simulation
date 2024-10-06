@@ -11,3 +11,11 @@ I completed a job simulation focused on the role of a cybersecurity generalist s
 ### Task 1: Utilizing Splunk Enterprise for Fraud-Related Data
 
 For this task, I installed and set up Splunk Enterprise to analyze a provided dataset focused on fraud-related data. After successfully importing the dataset, I utilized Splunk's powerful data exploration tools to investigate and identify key patterns. To present the insights, I created a comprehensive dashboard featuring a variety of charts and tables that effectively visualized the fraud data, making it easy to interpret trends and detect suspicious activity. The final dashboard was designed to be clear, informative, and ready for submission, providing a valuable tool for fraud detection and prevention efforts.
+
+**Splunk Search Queries**
+
+**Transactions by Category:**
+
+```
+sourcetype="2fraud_dectection.csv" | top category
+```
