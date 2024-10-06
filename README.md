@@ -92,5 +92,4 @@ sourcetype="2fraud_dectection.csv" fraud="1" gender="F'" | stats count by catego
 sourcetype="2fraud_dectection.csv" fraud="1" gender="M'" | stats count by category
 ```
 
-[Splunk Dashboard]([https://example.com/report.pdf](https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Fraud%20Detection%20Dashboard%20(2024-09-30).pdf
-))
+[Splunk Dashboard](https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Fraud%20Detection%20Dashboard%20(2024-09-30).pdf)
