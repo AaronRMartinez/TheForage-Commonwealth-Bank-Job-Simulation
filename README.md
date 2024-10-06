@@ -105,3 +105,9 @@ For this task, I was responsible for identifying the type of cyber attack based 
 The tasks involve researching the Australian Cyber Security Centre's (ACSC) best practices for secure passwords, then designing a visually appealing and clear infographic using design software such as Canva. Finally, the completed infographic will be formatted into an easy-to-understand PDF for distribution to fellow employees, with a focus on enhancing password security awareness.
 
 <a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/ACSC%20Password%20Practices.pdf">ACSC Secure Password Practices Infographic</a>
+
+### Task 4: Penetration Testing Skill Development through HackThisSite Challenges
+
+This task involved creating an account on HackThisSite and completing all 11 levels of the "Basic" web challenge. Following this, a Penetration Testing Report was documented, which included an executive summary, scope, descriptions of vulnerabilities, key findings, and security recommendations for each challenge level. The knowledge gained from these challenges could be applied to real-world scenarios to enhance penetration testing skills.
+
+<a href="">Penetration Testing Report on HackThisSite Basic Challenges</a>
