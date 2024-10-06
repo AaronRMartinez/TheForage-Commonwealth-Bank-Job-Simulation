@@ -12,6 +12,8 @@ I completed a job simulation focused on the role of a cybersecurity generalist s
 
 For this task, I installed and set up Splunk Enterprise to analyze a provided dataset focused on fraud-related data. After successfully importing the dataset, I utilized Splunk's powerful data exploration tools to investigate and identify key patterns. To present the insights, I created a comprehensive dashboard featuring a variety of charts and tables that effectively visualized the fraud data, making it easy to interpret trends and detect suspicious activity. The final dashboard was designed to be clear, informative, and ready for submission, providing a valuable tool for fraud detection and prevention efforts.
 
+[Splunk Dashboard](https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Fraud%20Detection%20Dashboard%20(2024-09-30).pdf)
+
 ### Splunk Search Queries
 
 **Transactions by Category:**
@@ -92,4 +94,9 @@ sourcetype="2fraud_dectection.csv" fraud="1" gender="F'" | stats count by catego
 sourcetype="2fraud_dectection.csv" fraud="1" gender="M'" | stats count by category
 ```
 
-[Splunk Dashboard](https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Fraud%20Detection%20Dashboard%20(2024-09-30).pdf)
+### Task 2: Utilizing Splunk Enterprise for Fraud-Related Data
+
+Based on the incident details given, a phishing attack, where employees were tricked into entering their credentials to a credential harvester and to download malware. As a cybersecurity analyst, the next steps call for immediate containment, resolution, and recovery measures. To contain the attack, all affected accounts should be disabled, the malicious website blocked, and malware isolated. For resolution, systems must be scanned and cleaned of any infections, and compromised credentials reset. Recovery actions include restoring file shares from backups, ensuring the systems are fully operational, and monitoring for further signs of compromise. Post-incident, a thorough investigation should be conducted to determine the scope of the breach, followed by security awareness training to prevent future phishing attacks. Implementing stronger email filtering, multi-factor authentication, and monitoring tools will help mitigate similar incidents in the future.
+
+<a href="">Incident Response Replies</a>
+
