@@ -103,3 +103,5 @@ For this task, I was responsible for identifying the type of cyber attack based 
 ### Task 3: Enhancing Password Security Awareness: Infographic Development
 
 The tasks involve researching the Australian Cyber Security Centre's (ACSC) best practices for secure passwords, then designing a visually appealing and clear infographic using design software such as Canva. Finally, the completed infographic will be formatted into an easy-to-understand PDF for distribution to fellow employees, with a focus on enhancing password security awareness.
+
+<a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/ACSC%20Password%20Practices.pdf">ACSC Secure Password Practices Infographic</a>
