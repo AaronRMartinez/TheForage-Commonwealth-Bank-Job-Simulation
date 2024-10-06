@@ -37,3 +37,57 @@ sourcetype="2fraud_dectection.csv"  | stats count by age
 ```
 sourcetype="2fraud_dectection.csv" fraud="1" | stats count by age
 ```
+
+**Age 19-25 Fraud by Merchant:**
+
+```
+sourcetype="2fraud_dectection.csv" fraud="1" age="1" | stats count by merchant
+```
+
+**Age 26-35 Fraud by Merchant:**
+
+```
+sourcetype="2fraud_dectection.csv" fraud="1" age="2" | stats count by merchant
+```
+
+**Fraud Detected by Category:**
+
+```
+sourcetype="2fraud_dectection.csv" fraud="1" | stats count values(1) by category
+```
+
+**Fraud Detected by Step:**
+
+```
+sourcetype="2fraud_dectection.csv" fraud="1" | stats count by step
+```
+
+**Fraud Detected by Gender:**
+
+```
+sourcetype="2fraud_dectection.csv" fraud="1" | stats count by gender
+```
+
+**Transactions by Merchant:**
+
+```
+sourcetype="2fraud_dectection.csv"  | stats count by merchant
+```
+
+**Fraud Detected by Merchant:**
+
+```
+sourcetype="2fraud_dectection.csv" fraud="1" | stats count by merchant
+```
+
+**Female Fraud Detected by Category:**
+
+```
+sourcetype="2fraud_dectection.csv" fraud="1" gender="F'" | stats count by category
+```
+
+**Male Fraud Detected by Category:**
+
+```
+sourcetype="2fraud_dectection.csv" fraud="1" gender="M'" | stats count by category
+```
