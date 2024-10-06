@@ -4,4 +4,6 @@ The Forage Job Simulations are online, interactive programs designed to give stu
 
 ## Commonwealth Bank Introduction to Cybersecurity
 
+I completed a job simulation focused on the role of a cybersecurity generalist specializing in fraud detection and prevention for Commonwealth Bank's Cybersecurity team. Through this job simulation, I developed skills in building data visualization dashboards using Splunk to uncover patterns and insights in historical customer data. Which aided in the detection of potential fraud. I also demonstrated the ability to respond effectively to cybersecurity incidents. Actions including notifying relevant teams, collecting critical information, containing and stopping attacks, and assisting in recovery efforts. Additionally, I enhanced my security awareness expertise by designing infographics promoting best practices for secure password management, following Australian Cybersecurity Center guidelines. I also gained practical experience in penetration testing, assessing web application security, identifying vulnerabilities, and providing recommendations to strengthen cybersecurity defenses.
+
 <a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Commonwealth%20Bank%20Certificate%20of%20Completion.pdf">Commonwealth Bank Introduction to Cybersecurity Certifcate of Completion</a>
