@@ -94,9 +94,12 @@ sourcetype="2fraud_dectection.csv" fraud="1" gender="F'" | stats count by catego
 sourcetype="2fraud_dectection.csv" fraud="1" gender="M'" | stats count by category
 ```
 
-### Task 2: Utilizing Splunk Enterprise for Fraud-Related Data
+### Task 2: Analysis of an Incident
 
-Based on the incident details given, a phishing attack, where employees were tricked into entering their credentials to a credential harvester and to download malware. As a cybersecurity analyst, the next steps call for immediate containment, resolution, and recovery measures. To contain the attack, all affected accounts should be disabled, the malicious website blocked, and malware isolated. For resolution, systems must be scanned and cleaned of any infections, and compromised credentials reset. Recovery actions include restoring file shares from backups, ensuring the systems are fully operational, and monitoring for further signs of compromise. Post-incident, a thorough investigation should be conducted to determine the scope of the breach, followed by security awareness training to prevent future phishing attacks. Implementing stronger email filtering, multi-factor authentication, and monitoring tools will help mitigate similar incidents in the future.
+For this task, I was responsible for identifying the type of cyber attack based on the incident details, analyzing indicators such as the attack method and compromised assets. Once the attack is identified, I will be required to outline the necessary steps for containment, resolution, and recovery, ensuring that the threat is isolated, the damage is mitigated, and systems are restored. I then developed a detailed list of actions to contain the attack, such as isolating affected systems and resetting credentials, followed by resolving any vulnerabilities and cleaning infected systems. After recovery, I will conduct post-incident activities like reviewing the attack's root cause, implementing stronger security controls, and recommending employee training or security awareness programs to prevent future incidents.
 
-<a href="">Incident Response Replies</a>
+<a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Commonwealth%20Incident%20Report.pdf">Incident Response Replies</a>
 
+### Task 3: Enhancing Password Security Awareness: Infographic Development
+
+The tasks involve researching the Australian Cyber Security Centre's (ACSC) best practices for secure passwords, then designing a visually appealing and clear infographic using design software such as Canva. Finally, the completed infographic will be formatted into an easy-to-understand PDF for distribution to fellow employees, with a focus on enhancing password security awareness.
