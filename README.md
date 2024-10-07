@@ -114,4 +114,4 @@ The tasks involve researching the Australian Cyber Security Centre's (ACSC) best
 
 This task involved creating an account on HackThisSite and completing all 11 levels of the "Basic" web challenge. Following this, a Penetration Testing Report was documented, which included an executive summary, scope, descriptions of vulnerabilities, key findings, and security recommendations for each challenge level. The knowledge gained from these challenges could be applied to real-world scenarios to enhance penetration testing skills.
 
-<a href="">Penetration Testing Report on HackThisSite Basic Challenges</a>
+<a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Commonwealth%20Bank%20Penetration%20Testing%20Report.pdf">Penetration Testing Report on HackThisSite Basic Challenges</a>
