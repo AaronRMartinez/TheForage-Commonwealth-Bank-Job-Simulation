@@ -14,84 +14,88 @@ For this task, I installed and set up Splunk Enterprise to analyze a provided da
 
 [Splunk Dashboard](https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Fraud%20Detection%20Dashboard%20(2024-09-30).pdf)
 
+![Splunk Dashboard](https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Commonwealth%20Bank%20Splunk%20Dashboard%20Screenshot.jpg)
+
+![Splunk Dashboard 2](https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Commonwealth%20Bank%20Splunk%20Dashboard%20Screenshot%202.jpg)
+
 ### Splunk Search Queries
 
 **Transactions by Category:**
 
 ```
-sourcetype="2fraud_dectection.csv" | top category
+sourcetype="fraud_dectection.csv" | top category
 ```
 
 **Number of Transaction Type:**
 
 ```
-sourcetype="2fraud_dectection.csv"  | stats count by fraud
+sourcetype="fraud_dectection.csv"  | stats count by fraud
 ```
 
 **Transactions by Age:**
 
 ```
-sourcetype="2fraud_dectection.csv"  | stats count by age
+sourcetype="fraud_dectection.csv"  | stats count by age
 ```
 
 **Fraud Detected by Age:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" | stats count by age
+sourcetype="fraud_dectection.csv" fraud="1" | stats count by age
 ```
 
 **Age 19-25 Fraud by Merchant:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" age="1" | stats count by merchant
+sourcetype="fraud_dectection.csv" fraud="1" age="1" | stats count by merchant
 ```
 
 **Age 26-35 Fraud by Merchant:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" age="2" | stats count by merchant
+sourcetype="fraud_dectection.csv" fraud="1" age="2" | stats count by merchant
 ```
 
 **Fraud Detected by Category:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" | stats count values(1) by category
+sourcetype="fraud_dectection.csv" fraud="1" | stats count values(1) by category
 ```
 
 **Fraud Detected by Step:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" | stats count by step
+sourcetype="fraud_dectection.csv" fraud="1" | stats count by step
 ```
 
 **Fraud Detected by Gender:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" | stats count by gender
+sourcetype="fraud_dectection.csv" fraud="1" | stats count by gender
 ```
 
 **Transactions by Merchant:**
 
 ```
-sourcetype="2fraud_dectection.csv"  | stats count by merchant
+sourcetype="fraud_dectection.csv"  | stats count by merchant
 ```
 
 **Fraud Detected by Merchant:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" | stats count by merchant
+sourcetype="fraud_dectection.csv" fraud="1" | stats count by merchant
 ```
 
 **Female Fraud Detected by Category:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" gender="F'" | stats count by category
+sourcetype="fraud_dectection.csv" fraud="1" gender="F'" | stats count by category
 ```
 
 **Male Fraud Detected by Category:**
 
 ```
-sourcetype="2fraud_dectection.csv" fraud="1" gender="M'" | stats count by category
+sourcetype="fraud_dectection.csv" fraud="1" gender="M'" | stats count by category
 ```
 
 ### Task 2: Analysis of an Incident
