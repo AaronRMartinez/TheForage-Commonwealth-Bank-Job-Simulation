@@ -100,18 +100,18 @@ sourcetype="fraud_dectection.csv" fraud="1" gender="M'" | stats count by categor
 
 ### Task 2: Analysis of an Incident
 
-For this task, I was responsible for identifying the type of cyber attack based on the incident details, analyzing indicators such as the attack method and compromised assets. Once the attack is identified, I will be required to outline the necessary steps for containment, resolution, and recovery, ensuring that the threat is isolated, the damage is mitigated, and systems are restored. I then developed a detailed list of actions to contain the attack, such as isolating affected systems and resetting credentials, followed by resolving any vulnerabilities and cleaning infected systems. After recovery, I will conduct post-incident activities like reviewing the attack's root cause, implementing stronger security controls, and recommending employee training or security awareness programs to prevent future incidents.
+For this task, I was responsible for identifying the type of cyber attack based on the incident details, analyzing indicators such as the attack method and compromised assets. Once the attack was identified, I was required to outline the necessary steps for containment, resolution, and recovery, ensuring that the threat were isolated, the damage mitigated, and the systems restored. I developed a detailed list of actions to contain the attack, such as isolating affected systems and resetting credentials, followed by resolving any vulnerabilities and cleaning infected systems. After the recovery, I conducted post-incident activities like reviewing the attack's root cause, implementing stronger security controls, and recommending employee training or security awareness programs to prevent future incidents.
 
 <a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Commonwealth%20Incident%20Report.pdf">Incident Response Replies</a>
 
 ### Task 3: Enhancing Password Security Awareness: Infographic Development
 
-The tasks involve researching the Australian Cyber Security Centre's (ACSC) best practices for secure passwords, then designing a visually appealing and clear infographic using design software such as Canva. Finally, the completed infographic will be formatted into an easy-to-understand PDF for distribution to fellow employees, with a focus on enhancing password security awareness.
+The task involved researching the Australian Cyber Security Centre's (ACSC) guidelines for secure passwords. Then designing a visually appealing and clear infographic using design software such as Canva. With the completed infographic, it was formatted into an easy-to-understand PDF for distribution to fellow employees, with a focus on enhancing password security awareness.
 
 <a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/ACSC%20Password%20Practices.pdf">ACSC Secure Password Practices Infographic</a>
 
 ### Task 4: Penetration Testing Skill Development through HackThisSite Challenges
 
-This task involved creating an account on HackThisSite and completing all 11 levels of the "Basic" web challenge. Following this, a Penetration Testing Report was documented, which included an executive summary, scope, descriptions of vulnerabilities, key findings, and security recommendations for each challenge level. The knowledge gained from these challenges could be applied to real-world scenarios to enhance penetration testing skills.
+This task involved creating an account on HackThisSite and completing all 11 levels of the "Basic" web challenges. Following this, a Penetration Testing Report was documented, which included an executive summary, scope, descriptions of vulnerabilities, key findings, and security recommendations for each challenge level. The knowledge gained from these challenges could be applied to real-world scenarios to enhance penetration testing skills.
 
 <a href="https://github.com/AaronRMartinez/TheForage-Commonwealth-Bank-Job-Simulation/blob/main/Commonwealth%20Bank%20Penetration%20Testing%20Report.pdf">Penetration Testing Report on HackThisSite Basic Challenges</a>
